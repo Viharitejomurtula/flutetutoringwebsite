@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags --><title>Flute Tutoring with Vihari | Nurturing Young Musicians in the Bay Area</title>
+    <meta name="description" content="Inspiring flute lessons for all ages and skill levels. Vihari offers a supportive, engaging environment to help students build confidence, discipline, and a lifelong love for music.">
+    <meta name="keywords" content="flute lessons, music tutor, flute teacher, bay area music lessons, Vihari Tejomurtula, adult flute lessons, beginner flute lessons">
+
+    <!-- Tailwind CSS --><script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles & Colors --><style>
+        :root {
+            --color-navy: #192A51;
+            --color-cream: #F9F5F0;
+            --color-coral: #F28C8C;
+            --color-text: #333333;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--color-cream);
+            color: var(--color-text);
+            overflow-x: hidden;
+        }
+        .font-serif {
+            font-family: 'Lora', serif;
+        }
+        .text-navy { color: var(--color-navy); }
+        .bg-navy { background-color: var(--color-navy); }
+        .text-coral { color: var(--color-coral); }
+        .bg-coral { background-color: var(--color-coral); }
+        .bg-cream { background-color: var(--color-cream); }
+        
+        .btn {
+            padding: 12px 28px;
+            border-radius: 9999px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            transition: all 0.3s ease;
+        }
+        .btn-coral {
+            background-color: var(--color-coral);
+            color: white;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+        }
+        .btn-coral:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+
+        /* Animation classes */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .animate-on-scroll.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header --><header class="bg-cream shadow-sm sticky top-0 z-50">
+        <nav class="w-full max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-serif font-semibold text-navy">Flute Tutoring</a>
+            <div class="hidden md:flex space-x-8 items-center text-navy font-medium">
+                <a href="#why-lessons" class="hover:text-coral transition duration-300">Why My Lessons?</a>
+                <a href="#offerings" class="hover:text-coral transition duration-300">What I Offer</a>
+                <a href="#about" class="hover:text-coral transition duration-300">About Vihari</a>
+                <a href="#contact" class="btn btn-coral">Book a Free Trial</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-navy focus:outline-none">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu --><div id="mobile-menu" class="hidden md:hidden px-6 pb-4 border-t border-gray-200">
+            <a href="#why-lessons" class="block py-2 text-navy hover:text-coral">Why My Lessons?</a>
+            <a href="#offerings" class="block py-2 text-navy hover:text-coral">What I Offer</a>
+            <a href="#about" class="block py-2 text-navy hover:text-coral">About Vihari</a>
+            <a href="#contact" class="block mt-3 text-center btn btn-coral">Book a Free Trial</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section --><section class="py-16 md:py-24">
+            <div class="w-full max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+                <div class="animate-on-scroll">
+                    <h1 class="text-4xl md:text-5xl font-serif font-bold text-navy leading-tight">Nurture a Lifelong Love for Music.</h1>
+                    <p class="mt-6 text-lg text-gray-600">Discover inspiring and supportive flute lessons designed for all levels. Grow in confidence, focus, and creativity through the joy of music.</p>
+                    <div class="mt-8">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdRV1E5-_e_We0xgsnFhc9sOdxBSr4ylBcGk9-L0T9OvQRbKQ/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="btn btn-coral inline-block">Schedule a Free Trial Lesson</a>
+                    </div>
+                </div>
+                <div class="animate-on-scroll" style="transition-delay: 0.2s;">
+                    <img src="https://i.ibb.co/VMy4P3V/opera-house.jpg" alt="Vihari at the Sydney Opera House" class="rounded-lg shadow-2xl w-full h-auto object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section --><section id="why-lessons" class="py-16 md:py-24 bg-white">
+            <div class="w-full max-w-6xl mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-navy animate-on-scroll">A Personalized Musical Journey</h2>
+                <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto animate-on-scroll" style="transition-delay: 0.1s;">My lessons are structured to be an engaging and rewarding experience for every student.</p>
+                <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
+                    <div class="bg-cream p-8 rounded-lg animate-on-scroll" style="transition-delay: 0.2s;">
+                        <h3 class="text-xl font-semibold text-navy mb-3">Beginner Friendly</h3>
+                        <p class="text-gray-600">New to the flute? No problem! We start from the very basics, building a strong and confident foundation.</p>
+                    </div>
+                    <div class="bg-cream p-8 rounded-lg animate-on-scroll" style="transition-delay: 0.3s;">
+                        <h3 class="text-xl font-semibold text-navy mb-3">Personalized Approach</h3>
+                        <p class="text-gray-600">I tailor lessons to each student's specific goals, learning style, and pace to ensure they get the most out of every class.</p>
+                    </div>
+                    <div class="bg-cream p-8 rounded-lg animate-on-scroll" style="transition-delay: 0.4s;">
+                        <h3 class="text-xl font-semibold text-navy mb-3">Flexible Scheduling</h3>
+                        <p class="text-gray-600">I understand busy schedules. I offer flexible scheduling to find a time that works best for you.</p>
+                    </div>
+                    <div class="bg-cream p-8 rounded-lg animate-on-scroll" style="transition-delay: 0.5s;">
+                        <h3 class="text-xl font-semibold text-navy mb-3">Honor Band Audition Prep</h3>
+                        <p class="text-gray-600">I provide specialized coaching to help students prepare for honor band auditions with confidence.</p>
+                    </div>
+                    <div class="bg-cream p-8 rounded-lg animate-on-scroll" style="transition-delay: 0.6s;">
+                        <h3 class="text-xl font-semibold text-navy mb-3">Engaging & Fun</h3>
+                        <p class="text-gray-600">Lessons are designed to be fun and engaging, fostering a genuine love for music that extends beyond the classroom.</p>
+                    </div>
+                    <div class="bg-cream p-8 rounded-lg animate-on-scroll" style="transition-delay: 0.7s;">
+                        <h3 class="text-xl font-semibold text-navy mb-3">Boosts Life Skills</h3>
+                        <p class="text-gray-600">Consistent music education is a fantastic way to build discipline, confidence, and creativity—great for college apps and beyond!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- What I Offer Section --><section id="offerings" class="py-16 md:py-24">
+            <div class="w-full max-w-6xl mx-auto px-6 text-center">
+                 <h2 class="text-3xl md:text-4xl font-serif font-bold text-navy animate-on-scroll">Comprehensive Flute Education</h2>
+                 <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto animate-on-scroll" style="transition-delay: 0.1s;">From the first note to advanced techniques, here's what lessons include:</p>
+                <div class="max-w-3xl mx-auto mt-12 text-left animate-on-scroll" style="transition-delay: 0.2s;">
+                    <ul class="space-y-6 text-lg">
+                        <li class="flex items-start">
+                            <svg class="w-7 h-7 text-coral mr-4 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span><strong>Lessons for All Skill Levels:</strong> From absolute beginners learning their first notes to advanced players looking to refine their technique.</span>
+                        </li>
+                        <li class="flex items-start">
+                           <svg class="w-7 h-7 text-coral mr-4 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span><strong>Building a Strong Foundation:</strong> A core focus on fundamental skills like proper tone production, posture, breathing, and music theory.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-7 h-7 text-coral mr-4 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span><strong>Skill Sharpening & Performance:</strong> Guidance on advanced techniques, repertoire development, and performance coaching.</span>
+                        </li>
+                        <li class="flex items-start">
+                           <svg class="w-7 h-7 text-coral mr-4 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span><strong>Lesson Structure:</strong> Lessons are structured as four 30-minute classes per month, held once a week, for a monthly rate of $100. More intensive schedules can be accommodated upon request.</span>
+                        </li>
+                        <li class="flex items-start">
+                           <svg class="w-7 h-7 text-coral mr-4 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span><strong>Flexible Formats:</strong> To accommodate your needs, classes can be conducted in a hybrid manner (both in-person and virtual) or held completely online.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section --><section id="about" class="py-16 md:py-24 bg-white">
+            <div class="w-full max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+                <div class="animate-on-scroll">
+                    <img src="https://i.ibb.co/L8G23sP/playing-flute.jpg" alt="Vihari Tejomurtula playing the flute" class="rounded-lg shadow-2xl w-full h-auto object-cover">
+                </div>
+                <div class="animate-on-scroll" style="transition-delay: 0.2s;">
+                    <h2 class="text-3xl md:text-4xl font-serif font-bold text-navy">A Passionate Mentor for All Ages</h2>
+                    <p class="mt-6 text-lg text-gray-600">Hello! I'm Vihari Tejomurtula. As a musician who has performed on world stages like Carnegie Hall and the Sydney Opera House, my greatest joy comes from sharing my love for the flute with the next generation.</p>
+                    <p class="mt-4 text-lg text-gray-600">My approach is built on patience, encouragement, and fun. I create a supportive space where every student can feel comfortable to learn, make mistakes, and ultimately flourish as a musician. I tailor each lesson to the individual's pace and personality, ensuring they not only learn technique but also develop a true passion for music.</p>
+                    <div class="mt-8">
+                        <a href="https://www.youtube.com/@VihariSTejomurtula" target="_blank" rel="noopener noreferrer" class="btn btn-coral inline-block">Watch Me Play on YouTube</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact / CTA Section --><section id="contact" class="py-16 md:py-24 bg-navy text-white">
+            <div class="w-full max-w-4xl mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-serif font-bold animate-on-scroll">Ready to Begin Your Musical Journey?</h2>
+                <p class="mt-4 text-lg text-gray-300 max-w-2xl mx-auto animate-on-scroll" style="transition-delay: 0.1s;">The first lesson is always free. It's the perfect way to see if my teaching style is the right fit for you. I can't wait to meet you!</p>
+                <div class="mt-8 animate-on-scroll" style="transition-delay: 0.2s;">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdRV1E5-_e_We0xgsnFhc9sOdxBSr4ylBcGk9-L0T9OvQRbKQ/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="btn btn-coral inline-block">Claim Your Free Trial Lesson</a>
+                </div>
+                <div class="mt-10 text-gray-300 animate-on-scroll" style="transition-delay: 0.3s;">
+                    <p>Or, feel free to reach out directly:</p>
+                    <a href="mailto:viharitejo@gmail.com" class="font-semibold hover:text-coral transition">viharitejo@gmail.com</a> | <a href="tel:9257917745" class="font-semibold hover:text-coral transition">(925) 791-7745</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer --><footer class="bg-cream">
+        <div class="w-full max-w-6xl mx-auto px-6 py-6 text-center text-gray-500">
+            <p>&copy; 2025 Flute Tutoring with Vihari. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+
+        // Scroll animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+    </script>
+
+</body>
+</html>
+
+
+
+
+
